@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: bp30 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\temp\RSPFFC2.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/bp30.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\mac\Desktop\Code Project\bp30.cpp"
+]
+Creating command line "cl.exe @C:\temp\RSPFFC2.tmp" 
+<h3>Output Window</h3>
+Compiling...
+bp30.cpp
+c:\users\mac\desktop\code project\bp30.cpp(34) : error C2374: 'i' : redefinition; multiple initialization
+        c:\users\mac\desktop\code project\bp30.cpp(26) : see declaration of 'i'
+c:\users\mac\desktop\code project\bp30.cpp(36) : error C2374: 'i' : redefinition; multiple initialization
+        c:\users\mac\desktop\code project\bp30.cpp(26) : see declaration of 'i'
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+bp30.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

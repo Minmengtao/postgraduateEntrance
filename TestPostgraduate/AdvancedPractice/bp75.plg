@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: bp75 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\temp\RSP8BAE.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/bp75.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\mac\Desktop\Code Project\TestPostgraduate\AdvancedPractice\bp75.cpp"
+]
+Creating command line "cl.exe @C:\temp\RSP8BAE.tmp" 
+Creating temporary file "C:\temp\RSP8BAF.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/bp75.pdb" /debug /machine:I386 /out:"Debug/bp75.exe" /pdbtype:sept 
+".\Debug\bp75.obj"
+]
+Creating command line "link.exe @C:\temp\RSP8BAF.tmp"
+<h3>Output Window</h3>
+Compiling...
+bp75.cpp
+C:\Users\mac\Desktop\Code Project\TestPostgraduate\AdvancedPractice\bp75.cpp(6) : warning C4101: 'k' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+bp75.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

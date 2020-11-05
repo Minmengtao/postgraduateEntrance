@@ -1,0 +1,25 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: bp20 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\temp\RSPB8EB.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/bp20.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\mac\Desktop\Code Project\TestPostgraduate\bp20.cpp"
+]
+Creating command line "cl.exe @C:\temp\RSPB8EB.tmp" 
+<h3>Output Window</h3>
+Compiling...
+bp20.cpp
+
+
+
+<h3>Results</h3>
+bp20.obj - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

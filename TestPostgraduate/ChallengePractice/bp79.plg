@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: bp79 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\temp\RSP3805.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/bp79.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\mac\Desktop\Code Project\TestPostgraduate\ChallengePractice\bp79.cpp"
+]
+Creating command line "cl.exe @C:\temp\RSP3805.tmp" 
+<h3>Output Window</h3>
+Compiling...
+bp79.cpp
+c:\users\mac\desktop\code project\testpostgraduate\challengepractice\bp79.cpp(20) : error C2065: 'max' : undeclared identifier
+c:\users\mac\desktop\code project\testpostgraduate\challengepractice\bp79.cpp(32) : error C2679: binary '>>' : no operator defined which takes a right-hand operand of type 'class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' (or there is no acceptable conversion)
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+bp79.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
